@@ -126,7 +126,7 @@ footer {
   background-color: #3b3b3b; }
 
 /* Media Queries */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #header {
     max-height: 17vh; }
     #header h1 {
@@ -157,6 +157,6 @@ footer {
     margin-top: -1vh;
     height: 15vh;
     clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
-    -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%); } }
+    -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%); } } */
 
 /*# sourceMappingURL=styles.css.map */
