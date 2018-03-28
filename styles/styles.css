@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'BioLiquid';
+  src: url("./assets/fonts/bioliquid-Regular.tff");
+  font-family: 'Quick Argani';
+  src: url("./assets/fonts/QuickArgani.otf");
+  font-family: 'Quadaptor';
+  src: url("./assets/fonts/quadaptor.ttf");
+  font-family: 'Unicephalon';
+  src: url("./assets/fonts/unicephalon.ttf");
+  font-family: 'Kenney';
+  src: url("./assets/fonts/narrow.ttf"); }
+body {
+  background-image: url("../assets/images/galaxybg.jpg");
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif; }
+
+main {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }
+
+#header {
+  height: 45vh;
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 2px white;
+  -moz-box-shadow: 0 5px 2px white;
+  box-shadow: 0 5px 2px white; }
+  #header h1 {
+    font-size: 100px;
+    font-family: 'Unicephalon';
+    color: #0ab362;
+    text-stroke: 5px black;
+    -webkit-text-stroke: 5px black;
+    text-shadow: 5px 5px 2px black; }
+  #header h3 {
+    color: black; }
+  #header span {
+    font-family: 'Unicephalon';
+    color: black; }
+  #header img {
+    height: 90px;
+    width: 90px; }
+  #header img:hover {
+    text-shadow: 0 8px 6px -6px black; }
+  #header .row {
+    background-color: white; }
+  #header .fixed-top {
+    padding: 5px;
+    background-color: #3b3b3b;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black; }
+    #header .fixed-top span {
+      color: white;
+      text-stroke: .5px black;
+      -webkit-text-stroke: .5px black; }
+    #header .fixed-top img {
+      height: 90px;
+      width: 90px; }
+
+.main-container {
+  background-color: rgba(252, 252, 252, 0.8);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black; }
+  .main-container h1 {
+    text-align: right;
+    padding-top: 5vh;
+    font-family: 'Unicephalon';
+    font-size: 40px;
+    text-stroke: 1px white;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 3px 3px 2px black; }
+
+#about {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  margin-top: 4vh;
+  height: 80vh; }
+
+#stack {
+  height: 70vh;
+  margin-top: -8vh;
+  clip-path: polygon(0 17%, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 17%, 100% 0, 100% 85%, 0 100%); }
+  #stack .col-7 {
+    margin-top: 15vh; }
+  #stack i {
+    font-size: 60px;
+    padding: 5px;
+    text-stroke: .25px black;
+    -webkit-text-stroke: .25px black;
+    text-shadow: 1px 1px 2px black; }
+
+#projects {
+  height: 90vh;
+  margin-top: -6vh;
+  clip-path: polygon(0 12%, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 85%, 0 100%); }
+  #projects .carousel {
+    width: 95%;
+    height: 95%; }
+  #projects #mobilemock {
+    height: 65vh;
+    width: auto; }
+
+#contact {
+  height: 70vh;
+  margin-top: -9vh;
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%); }
+
+footer {
+  height: 10vh;
+  margin-top: 5vh;
+  background-color: #3b3b3b; }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  #header {
+    max-height: 17vh; }
+    #header h1 {
+      padding-top: 1vh;
+      font-size: 80px; }
+
+  #about {
+    margin-top: 2vh;
+    height: 20vh; }
+
+  #stack {
+    margin-top: -1vh;
+    height: 15vh; }
+    #stack i {
+      font-size: 40px;
+      padding: 2px;
+      text-stroke: .25px black;
+      -webkit-text-stroke: .25px black;
+      text-shadow: 1px 1px 2px black; }
+
+  #projects {
+    margin-top: -1vh;
+    height: 25vh;
+    clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%); }
+
+  #contact {
+    margin-top: -1vh;
+    height: 15vh;
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%); } }
+
+/*# sourceMappingURL=styles.css.map */
