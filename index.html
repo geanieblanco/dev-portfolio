@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <title>Geanie Blanco | Web Developer</title>
 
+  <!--  POPPER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -83,23 +86,20 @@
             <div class="row">
               <i class="devicon-html5-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
               <i class="devicon-css3-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
-              <i class="devicon-javascript-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
-              <i class="devicon-jquery-plain colored" id="devcons"></i>
-              <i class="devicon-mocha-plain colored" id="devcons"></i>
+              <i class="devicon-javascript-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="jquery"></i>
+              <i class="devicon-jquery-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Mocha"></i>
+              <i class="devicon-mocha-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
               <i class="devicon-react-original colored" id="devcons" data-toggle="tooltip" data-placement="top" title="React.JS"></i>
               <i class="devicon-nodejs-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Node.JS"></i>
               <i class="devicon-bootstrap-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Bootstrap 4"></i>
-            </div>
-
-            <div class="row">
               <i class="devicon-express-original colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Express"></i>
-              <i class="devicon-sass-original colored" id="devcons"></i>
-              <i class="devicon-babel-plain colored" id="devcons"></i>
-              <i class="devicon-git-plain colored" id="devcons"></i>
-              <i class="devicon-mysql-plain colored" id="devcons"></i>
-              <i class="devicon-mongodb-plain colored" id="devcons"></i>
-              <i class="devicon-sequelize-plain colored" id="devcons"></i>
-              <i class="devicon-swift-plain colored" id="devcons"></i>
+              <i class="devicon-sass-original colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Sass"></i>
+              <i class="devicon-babel-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Babel"></i>
+              <i class="devicon-git-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Git"></i>
+              <i class="devicon-mysql-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="My SQL"></i>
+              <i class="devicon-mongodb-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
+              <i class="devicon-sequelize-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Sequelize"></i>
+              <i class="devicon-swift-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Swift"></i>
 
             </div>
 
@@ -108,14 +108,14 @@
             </div>
 
             <div class="row">
-              <i class="devicon-atom-original colored" id="devcons"></i>
-              <i class="devicon-photoshop-plain colored" id="devcons"></i>
-              <i class="devicon-slack-plain colored" id="devcons"></i>
-              <i class="devicon-firefox-plain colored" id="devcons"></i>
-              <i class="devicon-chrome-plain colored" id="devcons"></i>
-              <i class="devicon-heroku-plain colored" id="devcons"></i>
-              <i class="devicon-safari-plain colored" id="devcons"></i>
-              <i class="devicon-google-plain colored" id="devcons"></i>
+              <i class="devicon-atom-original colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Atom"></i>
+              <i class="devicon-photoshop-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Photoshop"></i>
+              <i class="devicon-slack-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Slack"></i>
+              <i class="devicon-firefox-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Firefox"></i>
+              <i class="devicon-chrome-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Chrome"></i>
+              <i class="devicon-heroku-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Heroku"></i>
+              <i class="devicon-safari-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Safari"></i>
+              <i class="devicon-google-plain colored" id="devcons" data-toggle="tooltip" data-placement="top" title="Google"></i>
             </div>
           </div>
 
@@ -181,6 +181,10 @@
     }
 
     $('.project-slide').slick();
+
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
 
 </body>
