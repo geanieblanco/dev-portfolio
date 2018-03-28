@@ -2,19 +2,19 @@
 
 @font-face {
   font-family: 'BioLiquid';
-  src: url('./assets/fonts/bioliquid-Regular.tff');
+  src: url('/assets/fonts/bioliquid-Regular.tff');
 
   font-family: 'Quick Argani';
-  src: url('./assets/fonts/QuickArgani.otf');
+  src: url('/assets/fonts/QuickArgani.otf');
 
   font-family: 'Quadaptor';
-  src: url('./assets/fonts/quadaptor.ttf');
+  src: url('/assets/fonts/quadaptor.ttf');
 
   font-family: 'Unicephalon';
-  src: url('./assets/fonts/unicephalon.ttf');
+  src: url('/assets/fonts/unicephalon.ttf');
 
   font-family: 'Kenney';
-  src: url('./assets/fonts/narrow.ttf');
+  src: url('/assets/fonts/narrow.ttf');
 }
 
 
@@ -160,42 +160,42 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 1024px) {
-  #header {
-    max-height: 17vh;
-    h1 {
-      padding-top: 1vh;
-      font-size: 80px;
-    }
-  }
-  #about {
-    margin-top: 2vh;
-    height: 20vh;
-  }
-  #stack {
-    margin-top: -1vh;
-    height: 15vh;
-    .container {
-      // margin-top: -5vh;
-    }
-    i {
-      font-size: 40px;
-      padding: 2px;
-      text-stroke: .25px black;
-      -webkit-text-stroke: .25px black;
-      text-shadow: 1px 1px 2px black;
-    }
-  }
-  #projects {
-    margin-top: -1vh;
-    height: 25vh;
-    clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
-    -webkit-clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
-  }
-  #contact {
-    margin-top: -1vh;
-    height: 15vh;
-    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
-    -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
-  }
-}
+// @media (max-width: 1024px) {
+//   #header {
+//     max-height: 17vh;
+//     h1 {
+//       padding-top: 1vh;
+//       font-size: 80px;
+//     }
+//   }
+//   #about {
+//     margin-top: 2vh;
+//     height: 20vh;
+//   }
+//   #stack {
+//     margin-top: -1vh;
+//     height: 15vh;
+//     .container {
+//       // margin-top: -5vh;
+//     }
+//     i {
+//       font-size: 40px;
+//       padding: 2px;
+//       text-stroke: .25px black;
+//       -webkit-text-stroke: .25px black;
+//       text-shadow: 1px 1px 2px black;
+//     }
+//   }
+//   #projects {
+//     margin-top: -1vh;
+//     height: 25vh;
+//     clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
+//     -webkit-clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
+//   }
+//   #contact {
+//     margin-top: -1vh;
+//     height: 15vh;
+//     clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+//     -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+//   }
+// }
