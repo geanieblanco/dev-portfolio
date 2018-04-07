@@ -1,17 +1,14 @@
 @font-face {
   font-family: 'BioLiquid';
-  src: url("../assets/fonts/bioliquid-Regular.tff");
+  src: url("../assets/fonts/bioliquid-Regular.tff") format("truetype");
   font-family: 'Quick Argani';
-  src: url("../assets/fonts/QuickArgani.otf");
+  src: url("../assets/fonts/QuickArgani.otf") format("opentype");
   font-family: 'Quadaptor';
-  src: url("../assets/fonts/quadaptor.ttf");
+  src: url("../assets/fonts/quadaptor.ttf") format("truetype");
   font-family: 'Unicephalon';
-  src: url("../assets/fonts/unicephalon.ttf");
+  src: url("../assets/fonts/unicephalon.ttf") format("truetype");
   font-family: 'Kenney';
-  src: url("../assets/fonts/narrow.ttf");
-  font-family: 'unicephalonheavy';
-  font-weight: normal;
-  font-style: normal; }
+  src: url("../assets/fonts/narrow.ttf") format("truetype"); }
 body {
   background-image: url("../assets/images/galaxybg.jpg");
   background-color: black;
