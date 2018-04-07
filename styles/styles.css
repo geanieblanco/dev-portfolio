@@ -5,7 +5,7 @@
   src: url("../assets/fonts/QuickArgani.otf") format("opentype");
   font-family: 'Quadaptor';
   src: url("../assets/fonts/quadaptor.ttf") format("truetype");
-  font-family: 'Unicephalon', 'Gugi', cursive;
+  font-family: 'Unicephalon';
   src: url("../assets/fonts/unicephalon.ttf") format("truetype");
   font-family: 'Kenney';
   src: url("../assets/fonts/narrow.ttf") format("truetype"); }
@@ -38,7 +38,7 @@ a:hover {
   box-shadow: 0 5px 2px white; }
   #header h1 {
     font-size: 100px;
-    font-family: 'Unicephalon';
+    font-family: 'Unicephalon','Gugi', cursive;
     color: #0ab362;
     text-stroke: 5px black;
     -webkit-text-stroke: 5px black;
