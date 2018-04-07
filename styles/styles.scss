@@ -41,7 +41,8 @@ a:hover {
 }
 
 #header {
-  height: 45vh;
+  height: 40vh;
+  margin-top: 3vh;
   background-color: white;
   text-align: center;
   -webkit-box-shadow: 0 5px 2px white;
@@ -92,9 +93,6 @@ a:hover {
 
 .main-container {
   background-color: rgba(252,252,252,.8);
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
   h1 {
     text-align: right;
     padding-top: 5vh;
@@ -169,14 +167,18 @@ footer {
     }
   }
   #about {
-    margin-top: 2vh;
+    margin-top: 1vh;
     height: 35vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   #stack {
-    margin-top: -1vh;
+    margin-top: 1vh;
     height: 20vh;
-    .container {
-      // margin-top: -5vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    .col-7 {
+      margin-top: 0vh;
     }
     i {
       font-size: 40px;
@@ -187,15 +189,15 @@ footer {
     }
   }
   #projects {
-    margin-top: -1vh;
+    margin-top: 1vh;
     height: 40vh;
-    clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
-    -webkit-clip-path: polygon(0 12%, 100% 2%, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   #contact {
-    margin-top: -1vh;
+    margin-top: 1vh;
     height: 15vh;
-    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
-    -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
