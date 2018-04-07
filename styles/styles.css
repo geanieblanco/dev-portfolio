@@ -5,7 +5,7 @@
   src: url("../assets/fonts/QuickArgani.otf") format("opentype");
   font-family: 'Quadaptor';
   src: url("../assets/fonts/quadaptor.ttf") format("truetype");
-  font-family: 'Unicephalon';
+  font-family: 'Unicephalon', 'Gugi', cursive;
   src: url("../assets/fonts/unicephalon.ttf") format("truetype");
   font-family: 'Kenney';
   src: url("../assets/fonts/narrow.ttf") format("truetype"); }
