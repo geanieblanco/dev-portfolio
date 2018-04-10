@@ -78,29 +78,34 @@
     <!-- ABOUT ME  -->
     <div class="main-container container-fluid" id="about">
       <div class="row">
-        <div class="col-6">
-          <h2 class="h1">Thanks for Visiting!</h2>
-          <span>My name is Geanie, a junior web developer in the Greater NYC Area. I am looking to make an impact on the small business environment through accessible and customized tech. In addition I am interested in progressive web applications, cross platform mobile development, and tech for charity. I value meaningful collaboration and cohesive, simple UI. My personal hobbies include cooking, local music, history documentaries, and becoming fluent in High Valyrian.</span>
-          <br>
-          <h2>Let's Connect
-            <i class="fas fa-angle-double-right"></i>
-            <i class="fas fa-angle-double-right"></i>
-            <i class="fas fa-angle-double-right"></i>
-          </h2>
-        </div>
 
         <div class="col-3">
           <img class="image-fluid" src="./assets/images/aboutme2.jpg" />
         </div>
 
+        <div class="col-6">
+          <h2 class="h1">Thanks for Visiting!</h2>
+          <span>My name is Geanie, a junior web developer in the Greater NYC Area. I am looking to make an impact on the small business environment through accessible and customized tech. In addition I am interested in progressive web applications, cross platform mobile development, and tech for charity. I value meaningful collaboration and cohesive, simple UI. My personal hobbies include cooking, local music, history documentaries, and becoming fluent in High Valyrian.</span>
+          <br>
+          <h2>Let's Connect
+            <span>
+            <i class="fas fa-angle-double-right"></i>
+            <i class="fas fa-angle-double-right"></i>
+            <i class="fas fa-angle-double-right"></i>
+          </span>
+          </h2>
+        </div>
+
         <div class="col-3">
           <h4 class="text-left">Send a Message:</h4>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><i class="far fa-envelope-open"></i> geanieblanco@gmail.com</li>
+            <li class="list-group-item"><a href="mailto:geanieblanco@gmail.com"><i class="far fa-envelope-open"></i> geanieblanco@gmail.com</a></li>
             <li class="list-group-item"><a href="https://www.linkedin.com/in/blancoregina"><i class="fab fa-linkedin-in"></i>  LinkedIn</a></li>
             <li class="list-group-item"><a href="https://github.com/geanieblanco"><i class="fab fa-github-square"></i>  GitHub</a></li>
-            <li class="list-group-item"><a href=""><i class="fas fa-handshake"></i>  Freelance</a></li>
+            <li class="list-group-item"><a href="https://drive.google.com/file/d/1fbiC9WX7qicM_1ThU1wd9RKN5oP2CT-X/view?usp=sharing"><i class="fas fa-file"></i>  View Resume</a></li>
+            <li class="list-group-item" data-toggle="tooltip" data-placement="top" title="Under Contstruction: Check Back Soon"><a href=""><i class="fas fa-handshake"></i>  Freelance</a></li>
           </ul>
+
         </div>
 
       </div>
@@ -195,7 +200,7 @@
                     </ul>
 
                     <h4>Link</h4>
-                    <p><a href="https://github.com/geanieblanco/ToursApp">Github</a> (Currently in production)</p>
+                    <p><a href="https://github.com/geanieblanco/ToursApp">Github</a></p>
                   </div>
                   <div class="col"></div>
                 </div>
@@ -226,7 +231,7 @@
                     </ul>
 
                     <h4>Link</h4>
-                    <p><a href="https://github.com/geanieblanco/diy-connect">Github</a> (Currently in production)</p>
+                    <p><a href="https://github.com/geanieblanco/diy-connect">Github</a></p>
                   </div>
                   <div class="col"></div>
                 </div>
@@ -255,7 +260,7 @@
                     </ul>
 
                     <h4>Link</h4>
-                    <p><a href="https://github.com/geanieblanco/dev-portfolio">Github</a> (Currently in production)</p>
+                    <p><a href="https://github.com/geanieblanco/dev-portfolio">Github</a></p>
                   </div>
                   <div class="col"></div>
                 </div>
@@ -285,46 +290,42 @@
   <footer id="contact">
     <div class="container container-fluid">
       <div class="row">
-        <div class="col">
-          <p mailto="geanieblanco@gmail.com">
-          <i class="far fa-envelope-open"></i>
-          <br>
-          <span>EMAIL</span>
-        </p>
+
+        <div class="col" data-toggle="tooltip" data-placement="top" title="geanieblanco@gmail.com">
+          <a href="mailto:geanieblanco@gmail.com">
+            <p><i class="far fa-envelope-open"></i></p>
+            <span>EMAIL</span>
+          </a>
         </div>
+
         <div class="col">
-          <p>
-          <i class="fab fa-github-square"></i>
-          <br>
-          <span>GITHUB</span>
-        </p>
+          <a href="https://github.com/geanieblanco">
+            <p><i class="fab fa-github-square"></i></p>
+            <span>GITHUB</span>
+          </a>
         </div>
+
         <div class="col">
-          <p>
-          <i class="fab fa-linkedin-in"></i>
-          <br>
-          <span>LINKEDIN</span>
-        </p>
+          <a href="https://www.linkedin.com/in/blancoregina">
+            <p><i class="fab fa-linkedin-in"></i></p>
+            <span>LINKEDIN</span>
+          </a>
         </div>
-        <div class="col">
-          <p>
-          <i class="fas fa-handshake"></i>
-          <br>
+
+        <div class="col" data-toggle="tooltip" data-placement="top" title="Under Contstruction: Check Back Soon">
+          <p><i class="fas fa-handshake"></i></p>
           <span>FREELANCE</span>
-        </p>
         </div>
+
         <div class="col">
-          <p>
-          <i class="fas fa-laptop"></i>
-          <br>
+          <p><i class="fas fa-laptop"></i></p>
           <span>ATTRIBUTES</span>
-        </p>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- MODAL -->
+  <!-- EMPLOYMENT MODAL -->
   <div class="modal fade" id="jobmodal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -343,6 +344,26 @@
       </div>
     </div>
 
+<!-- ATTRIBUTES MODAL -->
+<div class="modal fade" id="attmodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <!-- JavaScript -->
@@ -382,12 +403,18 @@ if (!sessionStorage.jobmodal) {
 
      $("#viewResume").click(function(e){
       e.preventDefault();
-      var url = $(this).attr("href");
-      var win = window.open(url, '_blank');
+      var url = "https://drive.google.com/file/d/1fbiC9WX7qicM_1ThU1wd9RKN5oP2CT-X/view?usp=sharing";
+      var win = window.open(url);
       $('#jobmodal').modal('hide');
      })
      sessionStorage.jobmodal = 1;
    }
+   $(function () {
+  $('[data-toggle="popover"]').popover()
+});
+   $('.popover-dismiss').popover({
+   trigger: 'focus'
+ });
 
   </script>
 
