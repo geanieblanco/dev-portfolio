@@ -1,10 +1,9 @@
-@import '_variables';
+@import "./scss/functions";
+@import "./scss/variables";
+@import "./scss/mixins";
+@import "_variables.scss";
 
-@font-face {
-  font-family: 'Unicephalon';
-  src: url('../assets/fonts/unicephalon.ttf') format('truetype');
 
-}
 
 
 body {
@@ -12,12 +11,13 @@ body {
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
 }
 
 main {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 a {
@@ -29,16 +29,16 @@ a:hover {
   color: black;
 }
 
+//HEADER
 #header {
   height: 40vh;
-  margin-top: 3vh;
+  width: 100%;
   background-color: white;
   text-align: center;
   -webkit-box-shadow: 0 5px 2px white;
   -moz-box-shadow: 0 5px 2px white;
   box-shadow: 0 5px 2px white;
-  h1 {
-    font-size: 100px;
+  h2 {
     font-family: 'Unicephalon','Gugi', cursive;
     color: rgb(10,179,98);
     text-stroke: 5px black;
@@ -63,25 +63,27 @@ a:hover {
     background-color: white;
   }
   .fixed-top {
-    padding: 5px;
+    padding: 3px;
     background-color: rgb(59,59,59);
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
     span {
       color: white;
+      font-size: 10px;
       text-stroke: .5px black;
       -webkit-text-stroke: .5px black;
     }
     img {
-      height: 90px;
-      width: 90px;
+      height: 50px;
+      width: 50px;
     }
   }
 }
 
+//CONTAINERS
 .main-container {
-  background-color: rgba(252,252,252,.8);
+  background-color: rgba(252,252,252,.9);
   h1 {
     text-align: right;
     padding-top: 5vh;
@@ -93,22 +95,48 @@ a:hover {
   }
 }
 
-
+//ABOUT
 #about {
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   margin-top: 4vh;
-  height: 80vh;
+  height: 60vh;
+  h2 {
+    font-family: 'Unicephalon';
+    text-stroke: 1px white;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 3px 3px 2px black;
+  }
+  span {
+    font-size: 23px;
+  }
+  .row {
+    padding-top: 2vh;
+  }
+  img {
+    height: 35%;
+  }
+  #message {
+    margin-left: 1px;
+  }
+  li {
+    background-color: rgba(255,255,255,0);
+    padding: 3px;
+  }
+  h4 {
+    font-family: 'Unicephalon';
+    text-stroke: .5px white;
+    -webkit-text-stroke: .5px white;
+    text-shadow: 3px 3px 2px black;
+  }
 }
 
+//STACK
 #stack {
   height: 70vh;
   margin-top: -8vh;
   clip-path: polygon(0 17%, 100% 0, 100% 85%, 0 100%);
   -webkit-clip-path: polygon(0 17%, 100% 0, 100% 85%, 0 100%);
-  .col-7 {
-    margin-top: 15vh;
-  }
   i {
     font-size: 60px;
     padding: 5px;
@@ -118,49 +146,100 @@ a:hover {
   }
 }
 
+//PROJECTS
 #projects {
   height: 90vh;
   margin-top: -6vh;
-  clip-path: polygon(0 12%, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
   .carousel {
-    width: 95%;
-    height: 95%;
+    margin-top: 2vh;
+    width: 100%;
+    height: 100%;
   }
   #mobilemock {
-    height: 65vh;
-    width: auto;
+    width: 100%;
+  }
+
+}
+
+//CONTACT
+// #contact {
+//   height: 30vh;
+//   margin-top: -9vh;
+//   clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+//   -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+// }
+
+//FOOTER
+footer {
+  height: 15vh;
+  margin-top: 5vh;
+  background-color: rgb(59,59,59);
+  text-align: center;
+  span {
+    color: white;
+    margin-top: -5px;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+    padding-top: 2vh;
   }
 }
 
-#contact {
-  height: 70vh;
-  margin-top: -9vh;
-  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+//MODAL
+#jobcard {
+  h5 {
+    font-family: 'Unicephalon','Gugi', cursive;
+    padding: 5px;
+  }
+  img {
+  height: 60%;
 }
-
-footer {
-  height: 10vh;
-  margin-top: 5vh;
-  background-color: rgb(59,59,59);
 }
 
 /* Media Queries */
 @media (max-width: 1024px) {
+  main {
+    padding: 0;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .main-container {
+    h1 {
+      padding-top: 1vh;
+    }
+  }
   #header {
     max-height: 17vh;
-    h1 {
+    h2 {
       padding-top: 1vh;
       font-size: 80px;
     }
   }
   #about {
     margin-top: 1vh;
-    height: 35vh;
+    height: 23vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    span {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    img {
+      padding-right: 10px;
+    }
+    #message {
+      margin-left: 15px;
+    }
   }
+
   #stack {
     margin-top: 1vh;
     height: 20vh;
@@ -177,16 +256,20 @@ footer {
       text-shadow: 1px 1px 2px black;
     }
   }
+
   #projects {
     margin-top: 1vh;
-    height: 40vh;
+    height: 35vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  #contact {
+
+  footer {
+    height: 5vh;
     margin-top: 1vh;
-    height: 15vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: 0;
+    p {
+      padding-top: 1vh;
+    }
   }
 }
