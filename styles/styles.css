@@ -112,7 +112,7 @@ a:hover {
     text-shadow: 1px 1px 2px black; }
 
 #projects {
-  height: 90vh;
+  height: 80vh;
   margin-top: -6vh;
   clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%); }
@@ -144,12 +144,6 @@ footer {
 
 /* Media Queries */
 @media (max-width: 1024px) {
-  main {
-    padding: 0; }
-
-  body {
-    padding: 0; }
-
   .main-container h1 {
     padding-top: 1vh; }
 
